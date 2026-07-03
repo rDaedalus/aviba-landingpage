@@ -1,0 +1,342 @@
+@media(max-width: 992px) {
+    .hero {
+        padding-top: 140px
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .hero-visual {
+        transform: scale(.86);
+        margin-inline: -40px
+    }
+
+    .feature-card {
+        padding: 26px
+    }
+
+    .audience-grid {
+        gap: 40px
+    }
+
+    .about-grid {
+        gap: 50px
+    }
+
+    .waitlist-card {
+        padding: 50px 40px;
+        gap: 35px
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        scroll-padding-top: 72px
+    }
+
+    .navbar {
+        height: 72px
+    }
+
+    .menu-toggle {
+        display: block;
+        z-index: 3
+    }
+
+    .menu-toggle.active span:first-child {
+        transform: translateY(8px) rotate(45deg)
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0
+    }
+
+    .menu-toggle.active span:last-child {
+        transform: translateY(-8px) rotate(-45deg)
+    }
+
+    .nav-links {
+        position: fixed;
+        inset: 72px 0 auto;
+        background: #195bb2;
+        padding: 30px 5%;
+        display: grid;
+        gap: 23px;
+        box-shadow: 0 20px 30px rgba(16, 36, 62, .1);
+        transform: translateY(-130%);
+        opacity: 0;
+        pointer-events: none;
+        transition: var(--transition)
+    }
+
+    .nav-links.open {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto
+    }
+
+    .nav-btn {
+        justify-content: center
+    }
+
+    .hero {
+        padding: 125px 0 80px;
+        background: linear-gradient(155deg, #fffdf7 52%, #edf7ff 52%)
+    }
+
+    .hero-grid,
+    .audience-grid,
+    .about-grid,
+    .waitlist-card {
+        grid-template-columns: 1fr
+    }
+
+    .hero-copy {
+        text-align: center
+    }
+
+    .hero-copy .eyebrow {
+        justify-content: center
+    }
+
+    .hero-text {
+        margin: auto
+    }
+
+    .hero-actions,
+    .trust-row {
+        justify-content: center
+    }
+
+    .hero-visual {
+        margin: -10px auto -30px;
+        transform: scale(.9);
+        width: 100%
+    }
+
+    .scroll-hint {
+        display: none
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr
+    }
+
+    .feature-card {
+        min-height: 330px
+    }
+
+    .feature-icon {
+        margin-bottom: 32px
+    }
+
+    .audience {
+        padding: 90px 0
+    }
+
+    .audience-copy {
+        text-align: center
+    }
+
+    .audience-copy>p {
+        margin: auto
+    }
+
+    .audience-tabs {
+        justify-content: center
+    }
+
+    .audience-panel {
+        max-width: 600px;
+        margin: auto;
+        width: 100%
+    }
+
+    .about {
+        padding: 90px 0
+    }
+
+    .about-mark {
+        height: 440px
+    }
+
+    .about-mark img {
+        width: 440px
+    }
+
+    .about-copy {
+        text-align: center
+    }
+
+    .waitlist {
+        padding-bottom: 70px
+    }
+
+    .waitlist-card {
+        padding: 50px 8%;
+        text-align: center
+    }
+
+    .lead-form {
+        text-align: left
+    }
+
+    .footer-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center
+    }
+
+    .footer-inner>p {
+        border: 0;
+        padding: 0
+    }
+
+    .footer-links {
+        order: 3;
+        width: 100%;
+        margin: 0;
+        justify-content: center
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        width: min(91%, var(--container))
+    }
+
+    h1 {
+        font-size: 3.25rem
+    }
+
+    h2 {
+        font-size: 2.55rem
+    }
+
+    .hero {
+        padding-top: 110px
+    }
+
+    .hero-copy h1 {
+        margin-top: 19px
+    }
+
+    .hero-text {
+        font-size: .96rem
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .btn-primary {
+        width: 100%;
+        max-width: 330px
+    }
+
+    .trust-row {
+        margin-top: 30px
+    }
+
+    .hero-visual {
+        height: 520px;
+        transform: scale(.82);
+        margin: -35px auto -60px
+    }
+
+    .orbit-two {
+        display: none
+    }
+
+    .achievement {
+        left: -7%
+    }
+
+    .stat-card {
+        right: -8%
+    }
+
+    .features {
+        padding: 85px 0
+    }
+
+    .section-heading {
+        margin-bottom: 38px
+    }
+
+    .feature-card {
+        padding: 25px;
+        min-height: 345px
+    }
+
+    .audience-panel {
+        padding: 32px 25px;
+        min-height: 465px
+    }
+
+    .audience-tabs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .audience-tab {
+        padding: 10px 8px;
+        font-size: .72rem
+    }
+
+    .about-grid {
+        gap: 35px
+    }
+
+    .about-mark {
+        height: 340px
+    }
+
+    .about-mark img {
+        width: 340px
+    }
+
+    .about-stats {
+        gap: 4px
+    }
+
+    .about-stats strong {
+        font-size: 1.9rem
+    }
+
+    .about-stats span {
+        font-size: .6rem
+    }
+
+    .waitlist-card {
+        width: 100%;
+        border-radius: 0;
+        padding: 55px 5%
+    }
+
+    .form-row {
+        grid-template-columns: 1fr
+    }
+
+    .lead-form {
+        padding: 23px 18px
+    }
+
+    .footer-inner small {
+        width: 100%
+    }
+}
+
+@media(prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto
+    }
+
+    *,
+    *:before,
+    *:after {
+        transition: none !important
+    }
+}

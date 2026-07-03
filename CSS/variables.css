@@ -1,0 +1,16 @@
+:root {
+    --primary: #0875d1;
+    --primary-dark: #045496;
+    --primary-pale: #eaf5ff;
+    --yellow: #ffdc45;
+    --coral: #ff725e;
+    --navy: #10243e;
+    --ink: #18304b;
+    --muted: #66788d;
+    --cream: #fffdf7;
+    --white: #ffffff;
+    --container: 1160px;
+    --radius: 24px;
+    --shadow: 0 24px 60px rgba(18, 68, 107, .14);
+    --transition: .25s ease;
+}
